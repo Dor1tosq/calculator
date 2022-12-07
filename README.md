@@ -5,12 +5,13 @@ oper = input('Что сделать ? (+, -, *, /):')
 result = int()
 
 if oper == "-":
-    result = a + b
-elif oper == "-":
     result = a - b
+elif oper == "+":
+    result = a + b
 elif oper == "*":
     result = a * b
 elif oper == '/':
     result = a / b
 
 print(f'Результат: {result}')
+
